@@ -3,7 +3,7 @@ name: Automerge
 on:
   schedule:
     # You can setup schedule here
-    - cron: '*/10 * * * *'
+    - cron: '*/10 16 * * *'
 
 jobs:
   merge-branch:
